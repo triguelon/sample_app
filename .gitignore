@@ -19,5 +19,5 @@ doc/
 .idea
 .secret
 
-#Secret token
-MyApp::Application.config.secret_token = ENV['SECRET_TOKEN']
+#Ignore the file containing the secret token
+.env
